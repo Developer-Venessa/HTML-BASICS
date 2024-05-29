@@ -1,0 +1,18 @@
+
+button{
+    color: crimson;
+    padding: 20px;
+    background-color: powderblue;
+    overflow: hidden;
+}
+h1{
+    font-family: cursive;
+}
+
+body{
+    background-image: url("Assets/images/roses.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

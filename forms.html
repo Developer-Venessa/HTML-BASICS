@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Assets/css/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>student registration form</title>
+
+</head>
+<body>
+<a href="login.html">BACK</a>
+<div class="myform">
+    <form action="">
+         <img src="Assets/images/img_avatar2.png" alt=""width="60">
+    <h2>Registration Form</h2>
+        <lable for="fname"><b>Firstname:</b></lable>
+        <br>
+    <input type="text" id="fname"placeholder="Enter Firstname"required>
+    <br><br>
+    <lable for="lname"><b>Lastname:</b></lable>
+        <br>
+    <input type="text" id="lname"placeholder="Enter lastname"required>
+    <br><br>
+    <lable for="barua"><b>Email:</b></lable>
+        <br>
+    <input type="email"id="barua"placeholder="Enter email" required>
+    <br><br>
+    <lable for="phn"><b>Phone number:</b></lable>
+        <br>
+    <input type="text"id="phn"placeholder="Enter password"required>
+    <br><br>
+    <lable for="Gender"><b>Gender</b></lable>
+        <select name="Gender" id="Gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+        <lable for="course"><b>Course Taken</b></lable>
+        <select name="course" id="course">
+            <option value="js">Javascript</option>
+            <option value="django">Django</option>
+            <option value="React">Reactjs</option>
+            <option value="python">Python</option>
+        </select><br><br>
+        <lable for="pic">upload pic</lable>
+        <input type="file"id="pic"><br><br>
+        <lable for="DOB"><b>Date of Birth</b></lable>
+
+    <input type="date" id="DOB"placeholder="Enter date"required>
+    <br><br>
+    <lable for="pass"><b>Password:</b></lable>
+
+    <input type="password"id="pass"placeholder="Enter password" required>
+    <br><br>
+    <button type="submit">Registration</button>
+</form>
+</div>
+
+
+
+</body>
+</html>
